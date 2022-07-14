@@ -336,6 +336,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `gateway.auth.nas.secretKey`                             | Secret key to access MinIO&reg; using NAS Gateway                                                  | `""`                       |
 | `gateway.auth.s3.accessKey`                              | Access key to use to access AWS S3                                                                 | `""`                       |
 | `gateway.auth.s3.secretKey`                              | Secret key to use to access AWS S3                                                                 | `""`                       |
+| `gateway.auth.s3.useIRSA`                                | Use IAM roles for service accounts use to access AWS S3                                                                 | `false`                       |
 | `gateway.auth.s3.serviceEndpoint`                        | AWS S3 endpoint                                                                                    | `https://s3.amazonaws.com` |
 
 

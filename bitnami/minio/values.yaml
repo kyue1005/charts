@@ -1122,9 +1122,11 @@ gateway:
     ## Authentication configuration for S3. Ignored unless type=s3
     ## @param gateway.auth.s3.accessKey Access key to use to access AWS S3
     ## @param gateway.auth.s3.secretKey Secret key to use to access AWS S3
+    ## @param gateway.auth.s3.usingIRSA Use IAM roles for service accounts use to access AWS S3
     ## @param gateway.auth.s3.serviceEndpoint AWS S3 endpoint
     ##
     s3:
       accessKey: ""
       secretKey: ""
+      usingIRSA: false
       serviceEndpoint: https://s3.amazonaws.com
